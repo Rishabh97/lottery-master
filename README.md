@@ -3,7 +3,7 @@
 Lottery Service keeps all the business logic required on the funnel at the backend. It orchestrates the response with some business logic to produce the output to be shown on funnel pages. It supports many micro APIs which are either stand-alone or many small APIs merged into one.
 
 # Framework Architecture :
-............................................................................
+
 Controller ---> Service ----> Validators -----> Helpers and Utils
 
 ## Controller – 
@@ -18,7 +18,7 @@ This is the first place where the request from clients lands. One controller wil
 ## Helpers 
 - There are some common methods or functionalities which are called in multiple services, these common codes are taken out into helpers for reuse.
 
-.........................................................................
+
 
 # API Controllers:
 
@@ -56,7 +56,7 @@ This API returns a String telling the timings and the prizes of the next lottery
 3. Testable
 4. Managable
 
-.............................................
+
 
 # Scope of Improvemenets :
 
