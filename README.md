@@ -6,8 +6,8 @@ Lottery Service keeps all the business logic required on the funnel at the backe
 
 Controller ---> Service ----> Validators -----> Helpers and Utils
 
-## Controller – 
-This is the first place where the request from clients lands. One controller will have many related API endpoints required for that functionality.
+## Controller 
+– This is the first place where the request from clients lands. One controller will have many related API endpoints required for that functionality.
 
 ## Response Builders 
 - Response Builders are used for building the final response whether it is a success response or error response.
@@ -58,7 +58,7 @@ This API returns a String telling the timings and the prizes of the next lottery
 
 
 
-# Scope of Improvemenets :
+# Scope of Improvements :
 
 1. All the constant values can be moved to a constant file .
 2. The configurable properties should be moved to a property management system so that we do not have to send a new release just to change some config properties .
